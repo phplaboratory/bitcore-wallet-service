@@ -95,6 +95,17 @@ Service.prototype._getConfiguration = function() {
     baseConfig.blockchainExplorerOpts = {
       testnet: providerOptions
     };
+
+  } else if (self.node.network === Networks.bcclivenet) {
+    baseConfig.blockchainExplorerOpts = {
+      livenet: providerOptions
+    };
+  } else if (self.node.network === Networks.bcctestnet) {
+    baseConfig.blockchainExplorerOpts = {
+      testnet: providerOptions
+    };
+
+
   } else {
     throw new Error('Unknown network');
   }
