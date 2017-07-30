@@ -51,14 +51,16 @@ var config = {
     },
     bcclivenet: {
       provider: 'insight',
-      url: 'http://blockdozer.com:80/insight/',
+      url: 'https://test-insight.bitpay.com:443',
+      //url: 'http://blockdozer.com:80/insight/',
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
     },
     bcctestnet: {
       provider: 'insight',
-      url: 'http://blockdozer.com:80/insight/',
+      url: 'https://test-insight.bitpay.com:443',
+      //url: 'http://blockdozer.com:80/insight/',
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
